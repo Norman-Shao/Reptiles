@@ -1,0 +1,17 @@
+[[source]]
+url = "https://mirrors.aliyun.com/pypi/simple/"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pillow = "*"
+requests = "*"
+aiofiles = "*"
+aiohttp-requests = "*"
+pyquery = "*"
+black = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
